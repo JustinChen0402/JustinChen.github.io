@@ -46,3 +46,7 @@ a:link {
 a:visited {
     color: white;
 }
+
+a:hover {
+    color: goldenrod;
+}
