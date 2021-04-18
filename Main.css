@@ -40,9 +40,9 @@ nav ul li a {
 }
 
 a:link {
-    color: blue;
+    color: white;
 }
 
 a:visited {
-    color: purple;
+    color: white;
 }
