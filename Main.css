@@ -1,3 +1,48 @@
 body {
-    background: #ffffff;
+    
+    margin: 0px 400px 0px;
+    background: #000000;
+    color: white;
+    font-family: Consolas, sans-serif;
+}
+
+header {
+    margin: 0;
+    font-size: 25px;
+}
+
+header h1 {
+    margin: 0;
+    display: inline;
+    
+}
+
+
+nav ul {
+    margin: 0;
+    display: inline;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    
+}
+
+nav ul li a {
+    color: white;
+}
+
+.bio { /*center text*/
+    text-align: left;
+    font-size: 20px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
 }
