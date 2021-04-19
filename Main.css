@@ -1,5 +1,4 @@
 body {
-    
     margin: 0px 400px 0px;
     background: #000000;
     color: white;
@@ -34,11 +33,17 @@ nav ul li a {
     color: white;
 }
 
-.bio { /*center text*/
+.nav__list {
+    float: right;
+    margin: 5px;
+}
+
+.bio {
     text-align: left;
     font-size: 20px;
 }
 
+/*links*/
 a:link {
     color: white;
 }
@@ -49,4 +54,26 @@ a:visited {
 
 a:hover {
     color: goldenrod;
+}
+
+/*Images*/
+.me {
+    height: 300px;
+    float: right;
+}
+
+.dogs {
+    height: 400px;
+    width: 300px;
+    float: right;
+}
+
+.con__list {
+    margin: 0;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    height: 2.5rem;
 }
