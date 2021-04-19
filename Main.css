@@ -5,6 +5,19 @@ body {
     font-family: Consolas, sans-serif;
 }
 
+.light-mode {
+    background-color: grey;
+    color: #0000;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    border: 0px;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     margin: 0;
     font-size: 25px;
@@ -16,11 +29,8 @@ header h1 {
     
 }
 
-
 nav ul {
-    margin: 0;
-    display: inline;
-    
+    margin: 0;  
 }
 
 nav ul li {
@@ -41,6 +51,7 @@ nav ul li a {
 .bio {
     text-align: left;
     font-size: 20px;
+    color: white;
 }
 
 /*links*/
@@ -76,6 +87,7 @@ a:hover {
     position: absolute;
     bottom: 0;
     height: 2.5rem;
+    color: white;
 }
 
 /*Portfolio Page CSS*/
